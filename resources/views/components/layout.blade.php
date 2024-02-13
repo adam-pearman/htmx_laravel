@@ -19,9 +19,6 @@
             <h1 class="text-3xl font-semibold">Contacts App</h1>
             <h2 class="mt-2">A Demo Contacts Application Built with Laravel and HTMX</h2>
         </header>
-        {{-- @for (getFlashedMessages() as $message) --}}
-        {{-- <div class="flash">{{ $message }}</div> --}}
-        {{-- @endfor --}}
         <section class="max-w-4xl mx-auto flex flex-col items-center gap-6 p-6">
             {{ $slot }}
         </section>
